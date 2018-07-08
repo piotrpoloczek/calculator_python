@@ -55,9 +55,12 @@ class GUI(Frame):
 			textbox_5.grid(column = 1, row = 4)
 			
 			texts = [text_1, text_2, text_3, text_4, text_5]
+			# this should return the texts to the other function
 			return texts
 		
 		def solve():
+			
+			# there should be the text from insert_textbox() function
 			dia_wew = text_1.get()
 			print(dia_wew)
 		
